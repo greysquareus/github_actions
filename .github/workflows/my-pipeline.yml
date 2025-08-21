@@ -13,8 +13,7 @@ jobs:
     steps:
       - name: Print nice message
         run: echo "Hello World"
-
-jobs:
+        
   my_staginging:
     runs-on: [ubuntu-latest]
 
@@ -22,7 +21,6 @@ jobs:
       - name: Print nice message
         run: echo "Hello World from stage"
 
-jobs:
   my_proding:
     runs-on: [ubuntu-latest]
 
