@@ -22,4 +22,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print nice message
-        run: echo "Hello World from prod"
+        run: echo "Hello World from prood"
